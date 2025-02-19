@@ -152,46 +152,132 @@ switch (fruit){
 
 // Operators and Conditonal Statements
 
-let num= prompt("enter a number");
-if(num%5==0){
-    console.log("number is multiple of 5");
-}
-else{
-    console.log("number is not multiple of 5");
-}
+// let num= prompt("enter a number");
+// if(num%5==0){
+//     console.log("number is multiple of 5");
+// }
+// else{
+//     console.log("number is not multiple of 5");
+// }
 
-let score= 87;
-if(score>=80 && score<=100){
-    console.log("grade A");
+// let score= 87;
+// if(score>=80 && score<=100){
+//     console.log("grade A");
 
-}
-else if(score>=70 && score<=89){
-    console.log("grade B");
+// }
+// else if(score>=70 && score<=89){
+//     console.log("grade B");
 
-}
-else if(score>=60 && score<=79){
-    console.log("grade C");
+// }
+// else if(score>=60 && score<=79){
+//     console.log("grade C");
 
-}
-else if(score>=50 && score<=69){
-    console.log("grade D");
+// }
+// else if(score>=50 && score<=69){
+//     console.log("grade D");
 
-}
-else if(score>=40 && score<=59){
-    console.log("grade E");
+// }
+// else if(score>=40 && score<=59){
+//     console.log("grade E");
 
-}
-else if(score>=0 && score<=49){
-    console.log("grade f");
+// }
+// else if(score>=0 && score<=49){
+//     console.log("grade f");
 
-}
-else{
-    console.log(" fail");
-}
+// }
+// else{
+//     console.log(" fail");
+// }
+
+//Student Marks:
+
+// let marks = 30;
+// if(marks>=35){
+//     console.log("pass");
+// }
+// else if (marks>=31){
+//     marks+=2;
+//     console.log(marks);
+    
+//     console.log("pass by using grace number");
+
+// }
+// else{
+//     console.log("fail");
+// }
+
+//function
+// function checkResult() {
+
+//     let marks = parseInt(document.getElementById("marks").value);
+    
+//     if (marks >= 35) {
+//         console.log("pass");
+//     } else if (marks >= 31) {
+//         marks += 2;
+//         console.log(marks);
+//         console.log("pass by using grace number");
+//     } else {
+//         console.log("fail");
+//     }
+// }
+// checkResult(35);
 
 
+/*array methods
+
+1.push
+2.pop
+3.slice
+4.concat
+5.join
+6.splice
+7.reverse
+8.indexOf
+9.length
+*/
+
+// const aa = [1,2,3,4,5]
+// const bb = [11,22,33,44,55]
+// const cc = aa.concat(bb)
+
+//  aa.length >=5 ? console.log("You grab offer") : console.log("You have no offer")
+
+//  aa.length >=5 ? aa.push(6) : console.log("You are not allowed to add")
+//  console.log(aa)
+
+
+
+
+// console.log(cc);
+//  cc.length >=5 ? console.log("You grab offer") : console.log("You have no offer")
+
+// const cc = aa.concat(bb)
+// console.log("Combined Group::",cc);
+// const dd = cc.splice(3,3);
+// console.log("Fighters::",dd);
+// console.log("Non-Fighters::",cc);
 
  
+// console.log("This pop the Last element::",aa.pop());
+// console.log(aa)
+
+// console.log("This pop the first element::",aa.shift());
+// console.log(aa)
+
+
+// console.log("Combined Group::",cc);
+// const dd = cc.slice(3,5);
+// console.log("Fighters::",dd);
+// console.log("Non-Fighters::",cc);
+
+
+// console.log(aa.indexOf(3));
+
+// console.log("Reverse of an array aa::",aa.reverse());
+// console.log("Join method in an array aa::",aa.join("-"));
+
+
 
 
 
