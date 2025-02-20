@@ -278,6 +278,64 @@ switch (fruit){
 // console.log("Join method in an array aa::",aa.join("-"));
 
 
+//Loops
+//1.for loop
+
+// for(let i =1; i<=10;i++){
+//     console.log("i = ", i);
+// }
+
+//2. while loop
+// let i =0;
+// while(i<=10){
+//     console.log("i = ",i)
+//     i++;
+// }
+
+//3. Do-While loop
+// let i=2;
+// do{
+//     console.log("i = ", i);
+//     i++;
+// }while(i<=10);
+
+//4.For-Of-Loop
+
+// let str="rajni";
+// let size=0;
+// for(let i of str){
+//     console.log("i = ",i)
+//     size++;
+// }
+// console.log("size =", size);
+
+
+//5. For-in-Loop
+// let student={
+//     name:"rajni",
+//     age:23,
+//     isPass:true
+// };
+// for(let i in student){
+//     console.log("key =",i , "value", student[i]);
+// }
+
+
+//practice!
+//  let GameNum=65;
+//  let usernum=prompt("guess your number :");
+//  while(usernum != GameNum){
+//     usernum=prompt("your number is incorrect, guess again :");
+//  }
+//  console.log("congratulation , you guess correct number");
+
+//practice!
+
+// for(let i = 1; i<=100;i++){
+//     if(i%2===0){
+//         console.log(i);
+//     }
+// }
 
 
 
