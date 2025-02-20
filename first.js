@@ -337,5 +337,72 @@ switch (fruit){
 //     }
 // }
 
+//String:
+//String Property
+//1.str.length
 
+// let str="Rajni Shrivastva";
+// console.log(str.length());
 
+//2. string indices
+
+// let str="Ram Kapoor";
+// console.log(str[6]);
+
+//3. Template literals 
+//  let sentence = `hii maam `;
+//  console.log(sentence);
+
+//  let obj={
+//     price:12,
+//     item: 2
+//  };
+//  console.log(obj);
+// let output = `the cost of ${obj.item } is ${obj.price}`;
+// console.log(output);
+
+//4. Escape characters
+
+// String Method
+
+//1. string Uppercase
+// let r = "abcde";
+// console.log(r.toUpperCase());
+
+//2. string Lowercase
+// let r = "ABCDEFGH";
+// console.log(r.toLowerCase());
+
+//3. strring remove white space
+
+// let r = "   ABVGfr   jhyf    ";
+// console.log(r.trim());
+
+//4. string Slice
+//  let sen = "ilovejs";
+//  console.log(sen.slice(2,4));
+
+//5. string concate
+
+// let a1 = "12345";
+// let a2 = "67890";
+// console.log(a1.concat(a2));
+// console.log(a1+a2);
+
+//6.string replace
+
+// let q= "queen";
+// q= q.replace("q","r");
+// console.log(q);
+
+//7. character index
+
+// let l=" ilovejs";
+// let n =(l.charAt(4));
+// console.log(n);
+
+// practice 
+
+// let fullName= prompt("enter your fullname");
+// let userName = "@"+fullName+fullName.length;
+// console.log(userName);
