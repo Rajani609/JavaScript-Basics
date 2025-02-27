@@ -278,6 +278,40 @@ switch (fruit){
 // console.log("Join method in an array aa::",aa.join("-"));
 
 
+
+//array properties:
+
+// 1. length of array
+
+// let arr=[1,3,4,5,67,7];
+// console.log(arr.length);
+
+//2.array indices
+// let arr=["w","e","d"];
+// console.log(arr[2]);
+
+ 
+//3.for-of-loop of array 
+
+// let heros=["vicky","ranveer","salman","ajay"];
+// for(let hero of heros){
+//     console.log(heros);
+// }
+
+//4. practice
+// let marks=[85,97,44,37,76,60];
+// let sum=0;
+// for(let i of marks){
+//     sum=sum+i;
+    
+// }
+// console.log(sum);
+// let avg=sum/marks.length;
+// console.log(avg);
+
+
+
+
 //Loops
 //1.for loop
 
