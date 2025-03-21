@@ -29,15 +29,56 @@
             document.getElementById("output").innerText = resultText;
         }
     </script> -->
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .container{
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+   
+    </style>
 </head>
 <body>
 
-    <label for="marksInput">Enter Marks (0-100):</label>
+    <!-- <label for="marksInput">Enter Marks (0-100):</label>
     <input type="number" id="marksInput" placeholder="Enter your marks">
 
     <button onclick="checkMarks()">Check Result</button>
 
     <p id="output"></p>
+     -->
+     <div class="container">
+      
+     <label for="name">FullName:</label>
+     <input type="text" name="name">
+
+     
+
+     <label for="email">Email:</label>
+     <input type="email" name="email">
+
+     
+
+     <label for="name">Password:</label>
+     <input type="password" name="name">
+
+     <button>sign in</button>
+
+    </div>
 
 </body>
 <script src="first.js"></script>
